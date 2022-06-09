@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "conseils",
+  "info": {
+    "singularName": "conseil",
+    "pluralName": "conseils",
+    "displayName": "ConseilMilanais"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ConseilMilanais": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "PhotoMilanaise": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
