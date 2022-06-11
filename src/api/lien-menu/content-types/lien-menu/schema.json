@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lien_menus",
+  "info": {
+    "singularName": "lien-menu",
+    "pluralName": "lien-menus",
+    "displayName": "LienMenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "lienMachine": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
