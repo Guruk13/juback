@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  random controller
+ *  menu controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::random.random');
+module.exports = createCoreController('api::menu.menu');

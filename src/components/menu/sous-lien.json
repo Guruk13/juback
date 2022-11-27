@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_menu_sous_liens",
+  "info": {
+    "displayName": "SousLien"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "LienMachine": {
+      "type": "string"
+    }
+  }
+}

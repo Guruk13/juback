@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * random service.
+ * menu service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::random.random');
+module.exports = createCoreService('api::menu.menu');

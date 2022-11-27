@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_menu_lien_menus",
+  "info": {
+    "displayName": "LienMenu",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitreLien": {
+      "type": "string",
+      "required": false
+    },
+    "LienMachine": {
+      "type": "string"
+    },
+    "SousLien": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.sous-lien"
+    }
+  }
+}

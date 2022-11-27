@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "menu_contents",
+  "collectionName": "menus",
   "info": {
-    "singularName": "menu-content",
-    "pluralName": "menu-contents",
-    "displayName": "SectionMenu",
-    "description": ""
+    "singularName": "menu",
+    "pluralName": "menus",
+    "displayName": "Menu"
   },
   "options": {
     "draftAndPublish": true
@@ -16,15 +15,16 @@
     }
   },
   "attributes": {
-    "Lien": {
-      "type": "component",
-      "repeatable": true,
+    "SectionMenu": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "menu.section-du-menu"
+      "type": "dynamiczone",
+      "components": [
+        "menu.lien-menu"
+      ]
     }
   }
 }
