@@ -1,0 +1,6 @@
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=randomaccessmemories
+JWT_SECRET=dbqR409472G5/DkTYOHAow==
+API_TOKEN_SALT=randomthereiagameoflovewhenyoudevcidedtowalkaway
+ADMIN_JWT_SECRET=someSecretKey
