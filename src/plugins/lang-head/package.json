@@ -1,0 +1,25 @@
+{
+  "name": "lang-head",
+  "version": "0.0.0",
+  "description": "Strapi Accept-language parser ",
+  "strapi": {
+    "name": "lang-head",
+    "description": "Contains a middleware that negotiates the locale for you",
+    "kind": "plugin",
+    "displayName": "Lang Head"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "guruk13"
+  },
+  "maintainers": [
+    {
+      "name": "guruk13"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
