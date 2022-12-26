@@ -1,14 +1,16 @@
 {
-  "name": "lang-head",
+  "name": "smol-lang",
   "version": "0.0.0",
   "description": "Strapi Accept-language parser ",
   "strapi": {
-    "name": "lang-head",
+    "name": "smol-lang",
     "description": "Contains a middleware that negotiates the locale for you",
     "kind": "plugin",
-    "displayName": "Lang Head"
+    "displayName": "Smol Language Parser"
   },
-  "dependencies": {},
+  "dependencies": {
+    "accept-language-parser": "^1.5.0"
+  },
   "author": {
     "name": "guruk13"
   },

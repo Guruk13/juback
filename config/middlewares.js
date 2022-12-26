@@ -4,7 +4,7 @@ module.exports = [
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
-  'global::al',
+  'plugin::smol-lang.langHead',
   'strapi::query',
   'strapi::body',
   'strapi::session',
